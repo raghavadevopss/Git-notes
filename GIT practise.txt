@@ -1,0 +1,39 @@
+***Deletion of files in Repository******
+RAGHAVENDRA@RAGHU MINGW64 /E/Training/repos-1/windows-team (main)
+$ git clean -n
+Would remove test.c
+Would remove test.cpp
+
+RAGHAVENDRA@RAGHU MINGW64 /E/Training/repos-1/windows-team (main)
+$ git clean -f
+Removing test.c
+Removing test.cpp
+============================================================================================
+RAGHAVENDRA@RAGHU MINGW64 /E/Training/REPOS/personal-data (main)
+$ ls
+personal-data/  red.cpp  test1.txt.txt  test2.txt.txt  test3.txt.txt
+RAGHAVENDRA@RAGHU MINGW64 /E/Training/REPOS/personal-data (main)
+$ git branch
+* main
+==============================================================================================
+*** Creation of New Branch ***
+RAGHAVENDRA@RAGHU MINGW64 /E/Training/REPOS/personal-data (main)
+$ git branch devteam
+
+RAGHAVENDRA@RAGHU MINGW64 /E/Training/REPOS/personal-data (main)
+$ git branch
+  devteam
+* main
+
+******  Switchhed Branch one branch to another branch ******************
+RAGHAVENDRA@RAGHU MINGW64 /E/Training/REPOS/personal-data (main)
+$ git checkout devteam
+Switched to branch 'devteam'
+
+RAGHAVENDRA@RAGHU MINGW64 /E/Training/REPOS/personal-data (devteam)
+$ git branch
+* devteam
+  main
+  
+ Git Checkout --> using to switching the branches
+==================================================================================================
